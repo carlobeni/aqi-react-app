@@ -1,0 +1,31 @@
+.suggestion-container{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    background: rgb(59, 59, 59);
+    padding: 10px;
+}
+.suggestion-container:hover{
+    background: rgb(143, 102, 255);
+}
+.text-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-wrap: anywhere;
+    font-size: 0.8em;
+    color: white;
+}
+.text{
+    text-align: center;
+}
+.close-icon{
+    height: 5vmin;
+    width: 5vmin;
+    display: flex;
+    align-items: center;
+}
+p{
+    font-family: Lato, sans-serif;
+}

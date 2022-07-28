@@ -1,0 +1,15 @@
+.introduction-layout{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+}
+.introduction-title{
+    margin: 2px;
+    align-self: flex-start;
+}
+.introduction-paragraph{
+    margin: 2px;
+    text-align: justify;
+}

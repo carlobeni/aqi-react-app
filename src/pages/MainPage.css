@@ -1,0 +1,85 @@
+.main-page {
+  background-color: black;
+  width: 100vw;
+  color: white;
+}
+
+.grid {
+  min-height: 100vh;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px auto
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  width: 100vw;
+  height: 50px;
+  z-index: 100;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 20vh 1fr;
+  grid-template-areas: 
+    'about circle'
+    'search-bar circle'
+    'dashboard circle'
+    'footer footer';
+}
+
+.about-container{
+  grid-area: about;
+  background-color:#1a1a1a;
+}
+.search-bar-container{
+  grid-area: search-bar;
+  background-color: rgb(31, 31, 31);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle-widget-container{
+  grid-area: circle;
+  background-color: rgb(39, 39, 39);
+}
+.dashboard-container{
+  height: auto;
+  grid-area: dashboard;
+  background-color:rgb(20, 20, 20);
+}
+
+@media only screen and (max-width: 550px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 80vh auto auto;
+    grid-template-areas: 
+    'about'
+    'search-bar'
+    'circle'
+    'dashboard';
+  }
+}
+
+
+/* Fancy unneccessary styles */
+
+h1 {
+  margin: auto;
+  align-items: center;
+}
+
+div {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}

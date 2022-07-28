@@ -1,0 +1,14 @@
+.results-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1px;
+    position:absolute;
+    top:100%;
+    overflow:auto;
+    max-height: 40vmin;
+    width: 100%;
+}
+/*Esto agrega bordes curvos al ultimo elemento de SearchResult*/
+.suggestion-container:last-child {
+    border-radius: 0px 0px 10px 10px;
+}

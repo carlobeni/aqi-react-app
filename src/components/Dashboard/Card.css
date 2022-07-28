@@ -1,0 +1,28 @@
+.card {
+    margin: 10px;
+    width: 20vmin;
+    min-height: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /*box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);*/
+    background-color: rgb(212, 0, 255,0.1);
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.card>h4{
+    margin: 0;
+    font-size: 1.3em;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.card>p,
+.card>label{
+    font-size: 0.8em;
+    margin: 0;
+    flex-wrap: wrap; 
+}
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(212, 0, 255, 0.575);
+    margin: 0;
+}

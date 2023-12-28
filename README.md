@@ -1,4 +1,6 @@
-# Demo
+#AQI-web
+
+Check out AQI-web! 🌐🌍 This awesome service uses OpenWeatherMap to show you the air quality index anywhere on the planet. But that's not all. At the heart of AQI-web, there's an autocomplete feature thanks to geoapify, making it easier to find locations. 📍✨ Ready to explore air quality? 💨🌿 AQI-web takes you on a journey, from start to finish. Dive in and discover it! 🚀🔍
 [Click here](https://app-aqi-946aa.web.app)
 
 ![Opera Captura de pantalla_2022-07-28_012108_app-aqi-946aa web app](https://user-images.githubusercontent.com/110142022/181426729-96207b1c-7290-4451-ae5e-fb8e6579db39.png)
